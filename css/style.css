@@ -252,3 +252,21 @@ button.btn-darkmode:hover {
 .bg-darker-color {
     background-color: var(--secondColorAlt);
 }
+
+@media screen and (max-width: 600px) {
+    .karakter {
+        grid-template-columns: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
